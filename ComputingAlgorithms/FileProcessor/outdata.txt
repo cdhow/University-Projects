@@ -1,0 +1,12 @@
+######## Information About the Input File ########
+
+Line count: 8
+Word count: 64
+Largest word: bobsaggotlookalike
+
+######## Formatted Text From Input File ########
+
+It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of 
+A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum Is That It Has A Bobsaggotlookalike 
+Normal Distribution Of Letters, As Opposed To Using 'content Here, Content Here', Making It Look 
+Like Readable English. Many Desktop Publishing Packages And Web Page Editors Now Use 

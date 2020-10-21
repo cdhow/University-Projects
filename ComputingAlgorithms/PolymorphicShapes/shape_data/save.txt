@@ -1,0 +1,6 @@
+Point 3 3 f
+Point 11 3 y
+Point 5 3 h
+Point 3 6 s
+Point 8 9 e
+Point 7 10 t

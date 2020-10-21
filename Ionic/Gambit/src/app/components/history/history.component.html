@@ -1,0 +1,32 @@
+<!-- displays recent bet history -->
+<ion-card>
+  <ion-item>
+    <ion-label>Recent History </ion-label>
+  </ion-item>
+
+  <ion-card-content>
+    <ion-list>
+        <ion-item-sliding *ngFor="let amount of history; let i = index" >
+          <ion-item>
+            <ion-label>
+              {{amount}}
+            </ion-label>
+          </ion-item>
+          <!-- sliding delete and edit options -->
+          <ion-item-options side="start">
+            <ion-item-option (click)="editItem(i)" color="primary">
+              <ion-icon name="paper"></ion-icon> edit
+            </ion-item-option>
+          </ion-item-options>
+
+          <ion-item-options side="end">
+            <ion-item-option (click)="removeItem(i)" color="danger">
+              <ion-icon name="trash"></ion-icon> delete
+            </ion-item-option>
+          </ion-item-options>
+
+        </ion-item-sliding>
+    </ion-list>
+
+  </ion-card-content>
+</ion-card>

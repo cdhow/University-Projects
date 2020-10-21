@@ -1,0 +1,47 @@
+commit 41e396f0970ef15670bd199162f68356d708432f
+Author: caleb <cdhowo@protonmail.com>
+Date:   Sun Sep 13 13:31:44 2020 +1000
+
+    Scoreboard now gets all user information from the database and displays it on the scoreboard screen
+
+commit 0aa250d7ee33d103e52fd9452ce8bcdab9215e82
+Author: caleb <cdhowo@protonmail.com>
+Date:   Sun Sep 13 11:46:39 2020 +1000
+
+    Updated the highscore system so new highscores are now saved to the database
+
+commit 95e61eba666a6861024e9b83203e281d6cf08bd6
+Author: caleb <cdhowo@protonmail.com>
+Date:   Sun Sep 13 10:11:43 2020 +1000
+
+    Completed login screen, user can enter a username and their details will be recieved from the database and displayed. If new user, they will be added to the database
+
+commit 275db6c40bac6756da17b842a724db060142f045
+Author: caleb <cdhowo@protonmail.com>
+Date:   Sat Sep 12 18:47:00 2020 +1000
+
+    rearranged project structure; Added basic login menu; Added express server and nedb database that will be used to store user's highscores
+
+commit 34491fba244b33ba538a05265dae564eb6eb8ac4
+Author: caleb <cdhowo@protonmail.com>
+Date:   Sat Sep 12 09:34:20 2020 +1000
+
+    Added a follow algorithm so Ghosts will follow Pacman depending on the level number
+
+commit 72cc819ebef8f8ddfd5e28bf0c365c842a43f715
+Author: caleb <cdhowo@protonmail.com>
+Date:   Sat Sep 12 08:59:29 2020 +1000
+
+    Added random colour generation for each level
+
+commit ceedca59d15324654b13ebd5e8520e056dfc048a
+Author: caleb <cdhowo@protonmail.com>
+Date:   Fri Sep 11 22:41:00 2020 +1000
+
+    Added functionality for multiple levels, includes changing levels after level completion
+
+commit 78bfa3a00a733196e94c15de50faea259b1eced9
+Author: caleb <cdhowo@protonmail.com>
+Date:   Thu Sep 10 18:08:09 2020 +1000
+
+    first commit

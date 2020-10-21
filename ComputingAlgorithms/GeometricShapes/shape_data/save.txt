@@ -1,0 +1,17 @@
+Point 4 4 x
+Point 3 3 t
+Ellipse 5 5 4 4 s
+Polygon 4 5 6 4 m
+Polygon 4 4 2 1 e
+Polygon 4 5 6 4 m
+Polygon 4 4 2 1 e
+Polygon 4 5 6 4 m
+Polygon 4 4 2 1 e
+Polygon 4 5 6 4 m
+Polygon 4 4 2 1 e
+Polygon 4 5 6 4 m
+Polygon 4 4 2 1 e
+Polygon 4 5 6 4 m
+Polygon 4 4 2 1 e
+Polygon 4 5 6 4 m
+Polygon 4 4 2 1 e

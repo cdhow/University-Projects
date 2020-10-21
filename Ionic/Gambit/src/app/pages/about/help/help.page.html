@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Help</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-content>
+      <p>
+        If you are struggling with a gambling
+        addiction or would like information about the issues related
+        to execessive gambling please use the following external resourses:
+      </p>
+    </ion-card-content>
+
+    <ion-item>
+
+      <ion-button href="#" (click)="window.open('https://www.lifeline.org.au/get-help/topics/problem-gambling', '_system', 'location=yes')">
+        <label>Lifeline Gambling Support</label>
+      </ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-button href='#' (click) = "window.open('https://www.helpguide.org/articles/addictions/gambling-addiction-and-problem-gambling.htm', '_system', 'location=yes')">
+        <label>HelpGuide</label>
+      </ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-button href="#" (click) = "window.open('https://www.healthdirect.gov.au/gambling-addiction', '_system', 'location=yes')">
+        <label>Health Direct</label>
+      </ion-button>
+    </ion-item>
+
+
+
+  </ion-card>
+
+
+</ion-content>

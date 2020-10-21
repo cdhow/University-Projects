@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Gambit</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <!-- input feilds for users betting amount and winnings amnount -->
+  <ion-list>
+    <ion-item>
+      <ion-label>Bet amount: </ion-label>
+      <ion-input [(ngModel)]="betAmount" type="number"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Final amount: </ion-label>
+      <ion-input [(ngModel)]="finalAmount" type="number"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Date: </ion-label>
+      <ion-datetime [(ngModel)]="dateTime" display-format="MMM DD, YYYY"></ion-datetime>
+    </ion-item>
+  </ion-list>
+
+  <!-- Button used to either present T&A or send results to history component and results page -->
+  <ion-button (click)="sendResults()" expand="full" color="dark">
+    <ion-label>SEND </ion-label>
+    <ion-icon name="arrow-forward"></ion-icon>
+  </ion-button>
+ 
+  <app-history [history] = "history"></app-history>
+</ion-content>

@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Gambit</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item>
+    <ion-label>Overall results: {{ results }}</ion-label>
+  </ion-item>
+
+  <!-- Not showing  -->
+  <div>
+    <app-bar-graph></app-bar-graph>
+  </div>
+
+  <div>
+    <app-line-graph></app-line-graph>
+  </div>
+
+  <ion-list>
+    <ion-radio-group [(ngModel)]="rdValue" color="success">
+      <ion-item>
+        <ion-label>{{ year }} Statisics</ion-label>
+        <ion-radio checked="true" value="bar" slot="start"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>{{ month }} Statistics</ion-label>
+        <ion-radio value="line" slot="start"></ion-radio>
+      </ion-item>
+
+
+    </ion-radio-group>
+  </ion-list>
+
+
+</ion-content>

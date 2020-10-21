@@ -1,0 +1,2 @@
+jsonL ::= {whitespace | symbol | keyword | string | number};
+level = "lexical".
